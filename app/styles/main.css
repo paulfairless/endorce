@@ -1,5 +1,9 @@
 /* Will be compiled down to a single stylesheet with your sass files */
 
+html {
+	background-color: #e3e3e3;
+}
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
 and (min-device-width : 320px)
