@@ -1,0 +1,140 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+	.cols{
+	    -moz-column-count:2;
+	    -moz-column-gap: 10px;
+	    -webkit-column-count:2;
+	    -webkit-column-gap: 10px;
+	    column-count: 2;
+	    column-gap: 10px;
+	}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+	.cols{
+    -moz-column-count:1;
+    -moz-column-gap: 10px;
+    -webkit-column-count:1;
+    -webkit-column-gap: 10px;
+    column-count: 1;
+    column-gap: 10px;
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+	.cols{
+	    -moz-column-count:3;
+	    -moz-column-gap: 10px;
+	    -webkit-column-count:3;
+	    -webkit-column-gap: 10px;
+	    column-count: 3;
+	    column-gap: 10px;
+	}
+}
+
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+	.cols{
+	    -moz-column-count:3;
+	    -moz-column-gap: 10px;
+	    -webkit-column-count:3;
+	    -webkit-column-gap: 10px;
+	    column-count: 3;
+	    column-gap: 10px;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+	.cols{
+	    -moz-column-count:2;
+	    -moz-column-gap: 10px;
+	    -webkit-column-count:2;
+	    -webkit-column-gap: 10px;
+	    column-count: 2;
+	    column-gap: 10px;
+	}
+}
+
+@media only screen
+and (min-width : 1024px) {
+	.cols{
+	    -moz-column-count:3;
+	    -moz-column-gap: 10px;
+	    -webkit-column-count:3;
+	    -webkit-column-gap: 10px;
+	    column-count: 3;
+	    column-gap: 10px;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+	.cols{
+	    -moz-column-count:4;
+	    -moz-column-gap: 10px;
+	    -webkit-column-count:4;
+	    -webkit-column-gap: 10px;
+	    column-count: 4;
+	    column-gap: 10px;
+	}
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+	.cols{
+	    -moz-column-count:5;
+	    -moz-column-gap: 10px;
+	    -webkit-column-count:5;
+	    -webkit-column-gap: 10px;
+	    column-count: 5;
+	    column-gap: 10px;
+	}
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
+.box{
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 20px;
+    -webkit-transition-property: left,right,top;
+    -moz-transition-property: left,right,top;
+    -ms-transition-property: left,right,top;
+    -o-transition-property: left,right,top;
+    transition-property: left,right,top;
+    -webkit-transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    -ms-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+}
