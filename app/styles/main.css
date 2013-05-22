@@ -1,7 +1,7 @@
 /* Will be compiled down to a single stylesheet with your sass files */
 
 html {
-	background-color: #e3e3e3;
+	background-color: #cccccc;
 	font-family: Helvetica, sans-serif;
 }
 
@@ -101,21 +101,36 @@ only screen and (min-device-pixel-ratio : 1.5) {
 	position: fixed;
     top: 0;
     left: 0;
-    height: 40px;
+    height: 50px;
     width:100%;
-	background:#fff;
-	box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.33);
+	background:#000;
+	color:#6f6f6f;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.33);
+}
+
+.header span {
+	margin-top:15px;
+	font-size: 14px;
+	line-height:20px;
+	margin-left:2em;
+	text-transform: uppercase;
+	float:left;
 }
 
 .header h1 {
 	font-size: 16px;
 	line-height:20px;
 	margin-left:2em;
+	float:left;
+}
+
+.logo {
+
 }
 
 .cols {
 	width:100%;
-	margin-top: 60px;
+	margin-top: 70px;
 	padding: 0 20px;
 	box-sizing: border-box;
 }
@@ -138,15 +153,15 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
 .box {
 	background:#FFF;
-	border-radius: 3px;
-	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.33);
+	border-radius: 1px;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
 	color: #555;
+	padding:10px;
 }
 .box > img {
 	width: 100%;
 }
 .box .summary img {
-	padding:10px;
 }
 .box h2 {
 	padding: 10px;
